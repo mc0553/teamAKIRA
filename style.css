@@ -28,8 +28,26 @@ h1{
     float: left;
 }
 
-.sidenav{
-    right: 0;
+.topmenu{
+    display: block;
+}
+
+.sidenav ul{
+    overflow: hidden;
+    float: right;
+}
+
+.sidenav li{
+    float: left;
+}
+
+.sidenav li a{
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav li a:hover{
+    background-color:pink;
 }
 
 .mainpic{
