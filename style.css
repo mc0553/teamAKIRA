@@ -4,18 +4,19 @@ body{
     /* font-family: ヒラギノ角ゴ ProN; */
     font-family: 'Hiragino Kaku Gothic ProN';
 }
+header{
+    width: 100%;
+}
 
-header .topbar{
+header .topmenu{
     width: 100%;
-    padding: 64px 52px;
+    display: flex;
 }
-header .topHeader{
-    width: 100%;
-    padding: 64px 52px;
+.topHeader{
+    left: 52px;
 }
-header .topbar{
-    width: 100%;
-    padding: 64px 52px;
+.sidenav ul{
+    display: flex;
 }
 
 
