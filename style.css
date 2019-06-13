@@ -9,8 +9,12 @@ h1{
     float: left;
 }
 
-.main{
+.sidenav{
     right: 0;
+}
+
+.mainpic{
+    text-align: center;
 }
 
 img{
@@ -18,4 +22,15 @@ img{
     width: 100px;
 }
 
+ul li {
+    list-style-type: none;
+}
 
+.contact{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
