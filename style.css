@@ -1,0 +1,21 @@
+
+body{
+    margin: 0 auto;
+    font-family: ヒラギノ角ゴ ProN;
+}
+
+
+h1{
+    float: left;
+}
+
+.main{
+    right: 0;
+}
+
+img{
+    height: 50px;
+    width: 100px;
+}
+
+
