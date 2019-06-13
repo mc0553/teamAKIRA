@@ -1,0 +1,91 @@
+.mainpic img{
+    width: 100%;
+}
+h2{
+    color:#707070;
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-size: 50px;
+    font-weight: 100;
+}
+.latest{
+    width: 100%;
+}
+.latest h2{
+    width: 216px;
+    height: 70px;
+    margin:1% 0 1% 4%;
+}
+
+.img-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-box li img{
+    height: 300px;
+    width: 100%;
+}
+ul li {
+    list-style-type: none;
+}
+.img-box li {
+    margin: 1%;
+    width: 460px;
+}
+.img-box li p {
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 100;
+    width: 90%;
+    color:#707070;
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
+.img-box li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color:rgb(0, 153, 255);
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-size: 30px;
+}
+
+.contact{
+    width: 100%;
+   
+}
+.contact h2{
+    width: 216px;
+    height: 70px;
+    margin:1% 0 1% 4%;
+}
+.contact form{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.contact form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 2%;
+    border: solid #e9e5e5 1.5px;
+}
+form input,button{
+    height: 43px;
+}
+form button{
+    border-radius: 5px;
+    width: 100%;
+    margin: 2%;
+    color: white;
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-size: 20px;
+    background-color: #616060;
+}
+::placeholder{
+    font-size: 20px;
+    color:#ddd7d7;
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
