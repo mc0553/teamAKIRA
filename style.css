@@ -3,6 +3,24 @@ body{
     margin: 0 auto;
     font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;    
 }
+header{
+    width: 100%;
+}
+
+header .topmenu{
+    width: 100%;
+    display: flex;
+}
+.topHeader{
+    left: 52px;
+}
+.sidenav ul{
+    display: flex;
+}
+
+
+
+
 
 
 h1{
@@ -53,18 +71,8 @@ h1{
     height: 1092.5px;
 }
 
-img{
-    height: 50px;
-    width: 100px;
-}
 
-ul li {
-    list-style-type: none;
-}
 
-.contact{
-    text-align: center;
-}
 
 footer{
     background-color: black;
